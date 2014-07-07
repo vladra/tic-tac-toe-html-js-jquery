@@ -28,6 +28,7 @@ html {
 
 .temp {
 	opacity: 0.8;
+	color:#2980b9;
 }
 
 #game-end {
@@ -49,10 +50,15 @@ html {
 	top: 40%;
 	font: 40px monospace;
 	z-index: 200;
+	color: #2980b9;
+	font-weight: bold;
 }
 
 #button {
 	font-size: 30px;
 	text-decoration: underline;
 	cursor: pointer;
+}
+#button:hover {
+	color: #c0392b;
 }
